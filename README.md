@@ -1,0 +1,1 @@
+Credits to Professor Isaac, where he provided the base code for communication between the Arduino and another mini-computer/computer. I just made some changes for the needs of the Humanoid RoboFEI project
