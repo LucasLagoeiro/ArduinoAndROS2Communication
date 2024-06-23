@@ -80,7 +80,7 @@ class Ros2Serial(Node):
     
     def imuSensor(self, valor):
         msg = Int32MultiArray()
-        msg.data = [int(valor[0]), int(valor[1])]
+        msg.data = [int(valor[0]), int(valor[1]), int(valor[2])]
         self.imu.publish(msg)
         # self.get_logger().info('Robot falling foward!' + msg.fallen_backwards)
         
